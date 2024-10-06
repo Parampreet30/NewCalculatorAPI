@@ -4,21 +4,21 @@ public class CalculatorService : ICalculatorService<decimal>
 {
     public decimal Add(decimal left, decimal right)
     {
-        throw new NotImplementedException();
+        return left + right;
     }
 
     public decimal Divide(decimal left, decimal right)
     {
-        throw new NotImplementedException();
+         return left / right;
     }
 
     public decimal Multiply(decimal left, decimal right)
     {
-        throw new NotImplementedException();
+        return left * right;
     }
 
     public decimal Subtract(decimal left, decimal right)
     {
-        throw new NotImplementedException();
+        return left - right;
     }
 }
